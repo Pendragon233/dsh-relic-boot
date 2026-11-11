@@ -1,0 +1,7 @@
+# Bundle patch for dsh-relic-boot.
+#
+# This makes the package a profile layer: the row mounts the plugin, and the
+# package's `dsh.client` block serves the browser half.
+- insert:
+    - id: boot-relic
+      name: dsh-relic-boot
